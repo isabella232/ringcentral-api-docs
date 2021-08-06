@@ -212,6 +212,7 @@ pages:
           - 'Submit to the App Gallery': 'basics/app-gallery.md'
           - 'Update a Profile': 'basics/update-profile.md'
           - 'Checklist and Best Practices': 'basics/app-gallery-checklist.md'
+          - 'Get in the App Gallery button': 'basics/app-gallery-button.md'
       - 'Application Management':
           - 'Using Lead Forms': 'basics/lead-forms.md'
           - 'Install App Buttons': 'basics/install-app-button.md'
