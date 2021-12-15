@@ -11,7 +11,13 @@ plugins:
   - bootstrap-tables
   - ringcentral-api-index:
       outfile: basics/api-index.md
-
+  - with-pdf:
+      cover_subtitle: "An API Reference and Developer Guide"
+      cover_logo: https://getvoip.com/uploads/ringcentral-logo-2021-1024x222.png
+      author: RingCentral, Inc.
+      enabled_if_env: ENABLE_PDF_EXPORT
+      output_path: docs/ringcentral-guide.pdf
+      
 theme:
   name: ringcentral
   fluid_layout: True
